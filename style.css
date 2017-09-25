@@ -1,8 +1,5 @@
 body{
-	margin: 0;
-	background: #222;
-	font-family: 'Work Sans', sans-serif;
-	font-weight: 400;
+	
 }
 .container{
 	width: 80%;
@@ -53,7 +50,10 @@ nav a::before{
 	width:0%;
 	transition: all ease-in-out 3000ms;
 }
-//nav a:hover::before{
-//	width: 100%;
-	
-//}
+a{
+    text-decoration: none;
+    font-size:15px;
+    color:#17242a;
+    font-variant: small-caps;
+    font-family: Gotham Regular;
+}
