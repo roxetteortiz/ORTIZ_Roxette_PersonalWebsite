@@ -1,6 +1,6 @@
-body{
+*{
 	margin: 0px auto;
-	padding:0px;
+	padding: 0px;
 }
 .container{
 	width: 80%;
@@ -8,8 +8,6 @@ body{
 	margin: 0 auto;
 	background-color: rgba;
 }
-
-
 header::after{
 	content:'';
 	display:table;
@@ -57,4 +55,10 @@ a{
     color:#17242a;
     font-variant: small-caps;
     font-family: Gotham Regular;
+}
+#aboutme{
+	height:10%;
+	width:100%;
+	background-color:#ffffff;
+	backgound-size: cover;
 }
