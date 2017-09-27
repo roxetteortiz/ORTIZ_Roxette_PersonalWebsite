@@ -66,4 +66,11 @@ table{
     marging-left: 350px;
     width: 40%;
 }
+tr td{
+    font-family: Helvetica LT Std Light;
+    color: #17242a;
+    margin-left: 200px;
+    width:70%;	
+}
+
 
