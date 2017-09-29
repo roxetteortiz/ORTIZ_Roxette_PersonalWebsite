@@ -63,7 +63,7 @@ a{
 	backgound-size: cover;
 }
 .button {
-    background-color: #4CAF50; /* Green */
+   
     border: none;
     color: white;
     padding: 15px 32px;
@@ -77,12 +77,12 @@ a{
 .button1 {
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
+    border: 2px solid black;
 	position: absolute;
 	top:200px;
-	margin-top:120%;
+	margin-top:134%;
 	margin-left:-9%;
-	margin-top:0;
+	
 	
 }
 
