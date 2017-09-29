@@ -67,18 +67,5 @@ table{
 	marging-left: 350px;
     width: 40%;
 }
-tr td{
-	
-    font-family: Helvetica LT Std Light;
-    color: #17242a;
-    margin-left: 200px;
-    width:70%;	
-}
-tr th{
-    font-family: Gotham Regular;
-    color: #3aafa9;
-    margin-left: 200px;
-    width:70%;	
-    text-align: left;
-}
+
 
