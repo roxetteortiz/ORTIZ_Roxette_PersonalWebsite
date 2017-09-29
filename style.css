@@ -75,8 +75,8 @@ a{
     cursor: pointer;
 }
 .button1 {
-    background-color: transparent; 
-    color: white; 
+    background-color: white; 
+    color: black; 
     border: 2px solid black;
 	position: absolute;
 	top:200px;
@@ -84,7 +84,6 @@ a{
 	margin-left:-17%;
 	width: 30%;
 	height: 10%;
-	
 	
 }
 
