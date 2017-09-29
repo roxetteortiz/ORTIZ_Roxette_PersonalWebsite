@@ -80,11 +80,24 @@ a{
     border: 2px solid black;
 	position: absolute;
 	top:200px;
+	font: AlexandriaFLF-B;
 	margin-top:134%;
 	margin-left:-17%;
 	width: 30%;
 	height: 10%;
 	
 }
-
+.button2{
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+	position: absolute;
+	top:200px;
+	font:AlexandriaFLF-B;
+	margin-top:140%;
+	margin-left:-17%;
+	width: 30%;
+	height: 10%;
+	
+}
 
