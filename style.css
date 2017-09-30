@@ -101,6 +101,8 @@ a{
 	
 }
 #frame{
-	margin-left:100px;
-	margin-right:100px;
+	 position: relative;
+  overflow: hidden;
+  width: 860px;
+  height: 100%;
 }
