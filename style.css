@@ -3,58 +3,76 @@
 	padding: 0px;
 }
 .container{
-	width: 80%;
-	height: 50px;
+	width: 102%;
+	height: 59px;
 	margin: 0 auto;
-	background-color: rgba;
+	
 }
 header::after{
 	content:'';
 	display:table;
 	clear: both;
+	
+	
 }
 nav {
 	float: right;
+	overflow: hidden;
+    background-color: white;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 1000%; /* Full width */
+	
 }
 nav ul{
-	margin: 0;
-	padding: 0;
+	margin: -7px;
+	padding: 17px;
 	list-style: none;
+	
+	
+	
 }
 nav li{
 	display: inline-block;
 	margin-left: 70px;
 	padding-top: 25px;
 	position: relative;
+	
+	
 }
 
 nav a{
 	color: #444;
 	text-decoration: none;
 	text-transform: uppercase;
-	font-size:10px;
+	font-family:courier;
+	font-size:90%;
+	float: center;
+    display: block;
+    color: #f2f2f2;
+    
+    padding: 20px 30px;
+    text-decoration: none;
+	
 }
 
 nav a:hover{
-	color: #000;
+	background-color: #555;
+    color: white;
 }
-nav a::before{
-	content:"";
-	display: block;
-	height: 5px;
-	width: 100%;
-	background-color:#444;
-	position: absolute;
-	top: 0;
-	width:0%;
-	transition: all ease-in-out 3000ms;
-}
+
 a{
     text-decoration: none;
-    font-size:15px;
+    
     color:#17242a;
     font-variant: small-caps;
-    font-family: Gotham Regular;
+   
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
 }
 #aboutme{
 	height:10%;
@@ -144,7 +162,8 @@ div.contact h1{
 footer {
     padding: 1em;
     color: white;
-    background-color: black;
+    background-color: #7C7C7C;
     clear: left;
     text-align: center;
+	font-family:courier;
 }
