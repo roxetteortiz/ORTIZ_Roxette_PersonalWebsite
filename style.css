@@ -91,6 +91,7 @@ li a {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+	position:fixed;
 }
 .button1 {
 	font-family:courier;
@@ -109,6 +110,12 @@ li a {
 
 	
 }
+
+.button1:hover {
+    background-color: eeeee0;
+    color: white;
+}
+
 .button2{
 	font-family:courier;
     background-color: #F0F8FF; 
@@ -122,6 +129,10 @@ li a {
 	width: 30%;
 	height: 10%;
 	
+}
+.button2:hover{
+	background-color: eeeee0;
+    color: white;
 }
 #frame{
 	 position: relative;
