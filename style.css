@@ -141,3 +141,10 @@ div.gallery img {
 div.contact h1{
 	font-family:courier;
 }
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
